@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="resistor">
+    <file>asset/resistor_mask.png</file>
+    <file>asset/resistor_plain.png</file>
+  </qresource>
+</RCC>
