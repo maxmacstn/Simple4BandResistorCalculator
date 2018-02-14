@@ -67,7 +67,7 @@ class ResistorCalcGUI(QMainWindow):
         resistorValue += self.secondDigitCombobox.currentIndex() * 10
 
         if (int(self.multiplierCombobox.currentIndex()) <= 7):
-            resistorValue *= pow(10, int(self.multiplierCombobox.currentIndex()))
+            resistorValue *= pow(10, int(self.multiplierCombobox.currentIndex()) - 1 )
         else:
             if (int(self.multiplierCombobox.currentIndex() == 8)):
                 resistorValue *= 0.1
